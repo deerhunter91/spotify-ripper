@@ -420,7 +420,7 @@ To install spotify-ripper once pyenv is setup:
 
 .. code:: bash
 
-    $ brew install homebrew/binary/libspotify
+    $ brew install https://raw.githubusercontent.com/Homebrew/homebrew-binary/a0ea578288ece6ef1e0ca343e8559c57d432a686/libspotify.rb
     $ sudo ln -s /usr/local/opt/libspotify/lib/libspotify.12.1.51.dylib \
         /usr/local/opt/libspotify/lib/libspotify
     $ brew install lame
